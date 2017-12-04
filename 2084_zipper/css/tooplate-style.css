@@ -29,9 +29,9 @@ a:focus {
 
 .tm-section-home {background-image: url(../img/farm.jpeg); }
 .tm-section-about { background-image: url(../img/chicken.jpeg); }
-.tm-section-services { background-color: rgba(0,0,0,0.3);}
-.tm-section-testimonials { background-image: url(../img/image-04.jpg); }
-.tm-section-contact { background-image: url(../img/image-05.jpg); }
+.tm-section-meettheteam { background-color: rgba(0,0,0,0.3);}
+.tm-section-quiz { background-image: url(../img/image-04.jpg); }
+.tm-section-contactus { background-image: url(../img/image-05.jpg); }
 
 .navbar-toggler {
     background-color: rgba(0,0,0,0.3);
