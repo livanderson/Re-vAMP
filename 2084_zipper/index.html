@@ -80,10 +80,19 @@
                 <div class="tm-page-content-width">
                     <div class="tm-bg-black-translucent tm-content-box tm-flex-center">
                         <div class="tm-content-box-inner">
-                            <h2 class="tm-section-title">Our Team</h2>
+                            <h2 class="tm-section-title">Our Team</h2>  
                             <p>Phasellus fringilla pharetra nunc sit amet fringilla. Vestibulum augue turpis, molestie sit amet odio eget, ornare mattis nisl.</p>
                             <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer ut justo arcu. Nullam a semper odio. Nam et conque libero, et placerat est.</p>
                             <p>Integer consectetur hendrerit dolor, quis scelerisque risus mattis quis. Pellentesque dapibus ornare nisl. Fusce facilisis pulvinar magna. Class aptent taciti sociosqu.</p>
+                            <style>
+                                img {
+                                    width: 100%;
+                                }
+                            </style>
+                            <body>
+                                <img src="image-01.jpg">  
+                            </body>
+                        
                         </div>                        
                     </div> 
                 </div>                
@@ -136,7 +145,11 @@
                 
                             <div class="form-group">                                                        
                                 <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Your Email"  required/>
-                            </div>                                                        
+                            </div>     
+
+                            <div class="form-group">                                                        
+                                <input type="email_subject" id="contact_email_subject" name="contact_email_subject" class="form-control" placeholder="Email Subject"  required/>
+                            </div>                                                     
                             
                             <div class="form-group">
                                 <textarea id="contact_message" name="contact_message" class="form-control" rows="5" placeholder="Message" required></textarea>
