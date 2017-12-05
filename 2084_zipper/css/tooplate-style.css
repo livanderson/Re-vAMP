@@ -30,8 +30,8 @@ a:focus {
 .tm-section-home {background-image: url(../img/farm.jpeg); }
 .tm-section-about { background-image: url(../img/chicken.jpeg); }
 .tm-section-meettheteam { background-color: rgba(0,0,0,0.3);}
-.tm-section-quiz { background-image: url(../img/image-04.jpg); }
-.tm-section-contactus { background-image: url(../img/image-05.jpg); }
+.tm-section-quiz { background-image: url(../img/emergency.jpeg); }
+.tm-section-contactus { background-color: rgba(0,0,0,0.3);}
 
 .navbar-toggler {
     background-color: rgba(0,0,0,0.3);
@@ -45,6 +45,29 @@ a:focus {
 
 button:focus { outline: none; }
 h1, h2, p {	color: white; }
+
+p { 
+	font-weight: 300;
+	line-height: 1.8;
+	margin-bottom: 35px;
+}
+
+
+
+.card {
+	color:#003300;
+	background-color: #666666;
+}
+.card-text {
+	color: white;
+}
+
+.tm-section-title {
+	color: #CAFF70;
+	font-size: 1.8rem;
+	margin-bottom: 40px;	
+}
+
 
 p { 
 	font-weight: 300;
